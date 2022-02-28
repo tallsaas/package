@@ -1,10 +1,10 @@
 <?php
 
-namespace TallSaas\Plaid\Providers;
+namespace TallSaas\Oembed\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class PlaidServiceProvider extends ServiceProvider 
+class OembedServiceProvider extends ServiceProvider 
 {
   public function boot()
   {

@@ -1,8 +1,8 @@
 {
-    "name": "tallsaas/plaid",
-    "description": "Plaid integration support for TALLSaaS tools.",
+    "name": "tallsaas/oembed",
+    "description": "Oembed integration support for TALLSaaS tools.",
     "keywords": [
-        "plaid",
+        "oembed",
         "saas",
         "tailwind",
         "alpinejs",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TallSaas\\Plaid\\": "src"
+            "TallSaas\\Oembed\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TallSaas\\Plaid\\Tests\\": "tests"
+            "TallSaas\\Oembed\\Tests\\": "tests"
         }
     },
     "config": {
@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TallSaas\\Plaid\\Providers\\PlaidServiceProvider"
+                "TallSaas\\Oembed\\Providers\\OembedServiceProvider"
             ]
         }
     }
