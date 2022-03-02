@@ -1,10 +1,10 @@
 <?php
 
-namespace TallSaas\Oembed\Providers;
+namespace TallSaas\Package\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class OembedServiceProvider extends ServiceProvider 
+class PackageServiceProvider extends ServiceProvider 
 {
   public function boot()
   {
