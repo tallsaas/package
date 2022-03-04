@@ -1,1 +1,1 @@
-# TALLSaaS tools support for oEmbed
+# TALLSaaS tools for quickly building custom Laravel packages
